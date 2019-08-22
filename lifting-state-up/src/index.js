@@ -48,5 +48,4 @@ class Calculator extends React.Component {
   }
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<Calculator />, rootElement);
+export default Calculator;
